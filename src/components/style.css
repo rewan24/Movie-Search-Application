@@ -1,0 +1,87 @@
+
+
+.beforeNav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 7, 12);
+    /* color: rgb(250, 175, 249); */
+    justify-content: space-between;
+
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+    font-weight: bolder;
+    
+}
+.link1:hover{
+    cursor:auto;
+}
+.link:hover{
+    /* transform: rotateZ('45'); */
+    /* transform:  0.3 ease-in-out; */
+    /* font-size: 15px; */
+    /* transform:  0.3 ease-in-out;
+    transition: all 0.3s ease-in-out; */
+    
+    transform: scale(1.2);
+    font-size: 17px;
+}
+
+/* تأثير عام لكل الروابط مع transition */
+/* .link {
+  transition: all 0.3s ease-in-out;
+  display: inline-block; 
+} */
+
+.home-link{
+    text-decoration: none;
+    color: white;
+    /* padding: 5px; */
+}
+
+.search-link{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+
+}
+
+/* تأثير مخصص عند مرور الماوس على رابط "Home" */
+.home-link:hover {
+  /* transform: rotateZ(10deg); */
+  transform: scale(1.2);
+  font-size: 17px;
+}
+
+/* تأثير مخصص عند مرور الماوس على رابط "Search" */
+.search-link:hover {
+  transform: scale(1.2);
+  font-size: 17px;
+}
+
+.movie-card {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  /* overflow: hidden; */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(215, 215, 215);
+}
